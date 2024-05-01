@@ -1,4 +1,4 @@
-# Laravel Role Permission Management System - Laravel `7.x` `9.x`
+# Sistema SISGEN LARAVEL 
 
 A project which manage Role, Permissions and every actions of your Laravel application. A complete solution for Role based Access Control in Laravel.
 
@@ -11,16 +11,9 @@ password - 12345678
 
 ## Requirements:
 - Laravel `7.x` | `9.7`
-- Spatie role permission package  `3.1.3`
-
 
 ## Versions:
 - Laravel `7.x` & PHP -`7.x`
-    - Tag - https://github.com/ManiruzzamanAkash/laravel-role/releases/tag/Laravel7.x
-    - Branch - https://github.com/ManiruzzamanAkash/laravel-role/tree/Laravel7.x
-
-- Laravel `9.7` & PHP - `8.x`
-
 
 ## Project Setup
 Git clone -
