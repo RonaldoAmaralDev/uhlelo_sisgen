@@ -27,14 +27,11 @@
 	<form method="POST" action="{{ route('admin.login.submit') }}">
         @csrf
         <div class="row authentication coming-soon mx-0">
-            <div class="col-xl-6 col-lg-7 d-lg-block d-none px-0">
-                <div class="cover p-5">
-                    <a href="https://laravelui.spruko.com/synto/index" class="float-end">
+            <div class="col-xl-6 col-lg-7 d-lg-block d-none px-0" >
+                <div class="cover p-5" style="background-image: url(http://localhost/UHLELO/uhlelo_sisgen/public/imgs/fundo_login.jpg);z-index: auto;" >
+                    <a href="https://uhlelotecnologia.com.br/" class="float-end">
                         <img src="http://localhost/UHLELO/uhlelo_sisgen/public/imgs/logo_sisgen_frotas.jpg" alt="" class=""> 
                     </a>
-                    <div class="authentication-page justify-center align-items-center authentication-img w-100 h-100 d-flex ">
-                        <img src="https://laravelui.spruko.com/synto/build/assets/img/authentication/2.png" alt="logo" class="mx-auto">
-                    </div>
                 </div>
             </div>
             <div class="col-xl-6 col-lg-5 col-12">
@@ -61,7 +58,7 @@
                                         </div>
                                         <div class="col-xl-12">
                                             <label  class="form-label text-default d-block">Senha
-                                                <a href="https://laravelui.spruko.com/synto/reset" class="float-end text-success">Esqueceu sua senha ?</a>
+                                                <a href="#" class="float-end text-success">Esqueceu sua senha ?</a>
                                             </label>
                                             <div class="input-group">
                                                 <input required type="password" name="password" class="form-control form-control-lg" id="signup-password" placeholder="Digite sua senha">
