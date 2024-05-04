@@ -40,17 +40,6 @@
                         <div class="row justify-content-center">
                             <div class="col-xl-6 col-lg-10 col-sm-6 col-10">
                                 <p class="h4 fw-bold mb-2 text-center">Autenticação</p>
-                                    <!-- <div class="text-center">
-                                        <p class="fs-14 text-muted mt-3">Não possui uma conta? <a href="https://laravelui.spruko.com/synto/signup" class="text-primary fw-semibold">Sign up here</a></p>
-                                    </div> -->
-                                    <!-- <div class="d-grid align-items-center">
-                                        <button class="btn btn-outline-light border shadow-sm">
-                                            <img src="https://laravelui.spruko.com/synto/build/assets/img/authentication/social/1.png" class="w-4 h-4 me-2" alt="google-img">Sign in with Google
-                                        </button>
-                                    </div> -->
-                                    <!-- <div class="text-center my-3 authentication-barrier">
-                                        <span>OR</span>
-                                    </div> -->
                                     <div class="row gy-3">
                                         <div class="col-xl-12">
                                             <label for="signup-Email" class="form-label text-default op=8">Login</label>

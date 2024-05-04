@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use App\Models\Admin;
 
 class LoginController extends Controller
 {
@@ -36,5 +37,16 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+    }
+
+    public function getUsers() {
+
+        $sql = ProcessoRotas::select('cod_processo_status')
+               ->where('cod_processo', $cod_processo)
+               ->orderBy('cod_processo', 'DESC')
+               ->first();
+
+        return $sql;
+
     }
 }
