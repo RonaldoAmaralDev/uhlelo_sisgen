@@ -1,51 +1,49 @@
-# Sistema SISGEN LARAVEL 
+#Sistema SISGEN LARAVEL
+PROJETO EM DESENVOLVIMENTO
 
-A project which manage Role, Permissions and every actions of your Laravel application. A complete solution for Role based Access Control in Laravel.
+Copiar código
+Nome de Usuário - superadmin
+Senha - 12345678
+Nota: Não tente modificar os dados do Super Admin (Função e administrador), apenas para implantação no Heroku.
 
-**Live Demo:** http://laravel-role.herokuapp.com
-```
-Username - superadmin
-password - 12345678
-```
-> **Note:** Don't try to modify the Super Admin (Role & admin) data, just for Heroku deployment.
+Requisitos:
+Laravel 7.x | 9.7
+Versões:
+Laravel 7.x & PHP -7.x
+Configuração do Projeto
+Clone o repositório Git -
 
-## Requirements:
-- Laravel `7.x` | `9.7`
+console
+Copiar código
+```git clone https://github.com/RonaldoAmaralDev/uhlelo_sisgen.git```
+Vá para a pasta do projeto -
 
-## Versions:
-- Laravel `7.x` & PHP -`7.x`
+console
+Copiar código
+```cd laravel-role```
+Instale as Dependências do Laravel -
 
-## Project Setup
-Git clone -
-```console
-git clone https://github.com/RonaldoAmaralDev/uhlelo_sisgen.git
-```
+console
+Copiar código
+```composer install```
+Crie o banco de dados chamado - laravel_role
 
-Go to project folder -
-```console
-cd laravel-role
-```
+Crie o arquivo .env copiando o arquivo .env.example
 
-Install Laravel Dependencies -
-```console
-composer install
-```
+Gere a Chave do Artisan (Se necessário) -
 
-Create database called - `laravel_role`
+console
+Copiar código
+```php artisan key:generate```
+Migre o Banco de Dados com o seeder -
 
-Create `.env` file by copying `.env.example` file
+console
+Copiar código
+```php artisan migrate --seed```
+Execute o Projeto -
 
-Generate Artisan Key (If needed) -
-```console
-php artisan key:generate
-```
+php
+Copiar código
+```php artisan serve```
 
-Migrate Database with seeder -
-```console
-php artisan migrate --seed
-```
 
-Run Project -
-```php
-php artisan serve
-```
