@@ -1,6 +1,5 @@
 # Sistema SISGEN LARAVEL 
 Um projeto que gerencia Funções, Permissões e todas as ações da sua aplicação Laravel. Uma solução completa para Controle de Acesso baseado em Funções no Laravel. 
-**Demonstração Ao Vivo:** http://laravel-role.herokuapp.com 
 ``` Nome de Usuário - superadmin Senha - 12345678 ``` > 
 **Nota:** Não tente modificar os dados do Super Admin (Função e administrador), apenas para implantação no Heroku.
 ## Requisitos: - Laravel `7.x` | `9.7` ## Versões: - Laravel `7.x` & PHP -`7.x`
