@@ -9,9 +9,11 @@
 
                 <div class="card-body">
                     @if (session('status'))
+                    @can('view_menu_sidebar')
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
+                    @endcan
                     @endif
 
                     {{ __('You are logged in!') }}
