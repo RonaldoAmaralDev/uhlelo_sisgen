@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FornecedorController;
 use App\Http\Controllers\VeiculoController;
+use App\Http\Controllers\AbastecimentoController;
+use App\Http\Controllers\EmpresaController;
+use App\Http\Controllers\ItemController;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,5 +80,8 @@ Route::group(['prefix' => 'admin'], function () {
     Route::put('/colaboradores/{colaborador}', [ColaboradorController::class, 'update'])->name('colaboradores.update');
     Route::delete('/colaboradores/{colaborador}', [ColaboradorController::class, 'destroy'])->name('colaboradores.destroy');
 
+    Route::resource('abastecimento', AbastecimentoController::class);
+    Route::resource('empresas', EmpresaController::class);
+    Route::resource('items', ItemController::class);
 
 });
